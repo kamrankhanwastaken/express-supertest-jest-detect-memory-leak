@@ -3,13 +3,11 @@ const request = require('supertest');
 describe('leak', () => {
 
 	let port;
-	let app;
 	let server;
 
 	beforeAll(() => {
 		port = 3000;
-		app = new express();
-		server = app.listen(port);
+		server = new express().listen(port);
 	});
 
 	afterAll(() => {
