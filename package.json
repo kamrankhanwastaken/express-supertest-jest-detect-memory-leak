@@ -1,0 +1,23 @@
+{
+  "name": "stratasmart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --detectLeaks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2",
+    "weak-napi": "^1.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
